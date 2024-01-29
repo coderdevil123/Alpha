@@ -90,4 +90,106 @@ int add(int a, int b) {
 }
 
 // Recursive function example
-int factorial(int n   
+int factorial(int n)   
+
+    
+
+  Now we are going to talk about CONTROL FLOW:-
+
+
+
+    In C programming, control flow is managed through if-else statements, switch statements, and loops like for, while, and do-while.
+
+     1. *If-else statements*:
+   c
+   if (condition) {
+       // code block to execute if condition is true
+   } else {
+       // code block to execute if condition is false
+   }
+   
+
+2. *Switch statement*:
+   c
+   switch (expression) {
+       case constant1:
+           // code block
+           break;
+       case constant2:
+           // code block
+           break;
+       default:
+           // code block
+   }
+   
+
+3. *For loop*:
+   c
+   for (initialization; condition; update) {
+       // code block to execute repeatedly until condition is false
+   }
+   
+
+4. *While loop*:
+   c
+   while (condition) {
+       // code block to execute repeatedly while condition is true
+   }
+   
+
+5. *Do-while loop*:
+   c
+   do {
+       // code block to execute at least once, then repeatedly as long as condition is true
+   } while (condition);
+   
+These constructs are essential for controlling the flow of execution in C programs.
+
+
+
+    *Now we are going yo talk about ARRAY:-
+
+
+
+
+In C programming, arrays are a fundamental data structure used to store multiple elements of the same data type sequentially in memory. Here's an overview of how to work with arrays:
+
+
+### Declaration:
+To declare an array, you specify the data type of its elements and its size. For example:
+c
+int numbers[5]; // Declares an array of 5 integers
+
+
+### Initialization:
+Arrays can be initialized during declaration or later on. Here are examples of both methods:
+c
+int numbers[5] = {1, 2, 3, 4, 5}; // Initialization during declaration
+
+int numbers[5]; // Declaration
+numbers[0] = 1; // Initialization after declaration
+numbers[1] = 2;
+// ...
+
+
+### Accessing Elements:
+You can access elements of an array using their index. Array indices start from 0. For example:
+c
+int thirdElement = numbers[2]; // Accessing the third element of the array
+
+
+### Multi-dimensional Arrays:
+Arrays can have multiple dimensions, such as 2D arrays. Here's an example of a 2D array:
+c
+int matrix[3][3] = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+
+Accessing elements in a 2D array involves specifying both row and column indices:
+c
+int element = matrix[1][2]; // Accessing the element at row 1, column 2
+
+
+These concepts can be extended to arrays with more dimensions as needed. Remember, C arrays have fixed sizes determined at compile time, so their size cannot be changed during runtime.
